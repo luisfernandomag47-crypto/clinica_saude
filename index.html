@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Vida Saudável</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        header {
+            background-color: #2c7be5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2c7be5;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #2c7be5;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1a5edb;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Clínica Vida Saudável</h1>
+    <h2>Cuidando da sua saúde com qualidade</h2>
+</header>
+
+<section>
+    <h2>Nossos Serviços</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Atendimento Médico</h3>
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=300">
+            <p>Consultas com profissionais qualificados e atendimento humanizado.</p>
+        </div>
+
+        <div class="card">
+            <h3>Exames Laboratoriais</h3>
+            <img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=300">
+            <p>Resultados rápidos com tecnologia moderna e precisão.</p>
+        </div>
+
+        <div class="card">
+            <h3>Aconselhamento Nutricional</h3>
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352">
+            <p>Planos alimentares personalizados para sua saúde.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Nossa Equipe</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Dr. João Silva</h3>
+            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=300">
+            <p>Médico Clínico Geral</p>
+        </div>
+
+        <div class="card">
+            <h3>Dra. Maria Souza</h3>
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300">
+            <p>Nutricionista</p>
+        </div>
+
+        <div class="card">
+            <h3>Dr. Carlos Lima</h3>
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d">
+            <p>Especialista em Diagnóstico</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Entre em Contato</h2>
+
+    <form>
+        <label>Nome:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Cidade:</label>
+        <input type="text" required>
+
+        <label>Estado:</label>
+        <input type="text" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+</body>
+</html>
